@@ -1,10 +1,7 @@
-from flask import Flask
-import os
 from dotenv import load_dotenv
-
+import os
 # 加载 .env 文件
 load_dotenv()
-app = Flask(__name__)
 
 class Config:
     MYSQL_DIALECT = os.environ.get('MYSQL_DIALECT')
@@ -22,11 +19,14 @@ class Config:
     SECRET_KEY = os.urandom(16)
     DEBUG = True
 
-app.config.from_object(Config)
+# 开发模式，开启debug模式
+class DevelopmentConfig(Config):
+    DEBUG = True
+# 生产模式，关闭debug模式
+class ProductionConfig(Config):
+    pass
 
-@app.route('/')
-def index():
-    return "test"
-
-if __name__=="__main__":
-    app.run(debug=True)
+config_map={
+    'develop':DevelopmentConfig,
+    'product':ProductionConfig
+}
