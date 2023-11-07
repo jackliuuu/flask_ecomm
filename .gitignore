@@ -1,2 +1,5 @@
 venv
 .env
+mysql
+migrations
+__pycache__
