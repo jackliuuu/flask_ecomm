@@ -15,7 +15,8 @@ class ProductView(MethodView):
                 'price': product.price,
                 'image_url': product.image_url
             }
-            return render_template('product.html', product_info=product_info)
+            css_url = url_for('static', filename='css/style.css')
+            return render_template('product.html', product_info=product_info, css_url=css_url)
         else:
             return abort(404)
      
