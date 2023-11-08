@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}My Website{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    {% block styles %}{% endblock %}
+</head>
+<body>
+    <header>
+        <!-- 导航栏等内容 -->
+    </header>
+
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+
+    <footer>
+        <!-- 页脚内容等 -->
+    </footer>
+</body>
+</html>

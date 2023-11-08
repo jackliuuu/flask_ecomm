@@ -1,28 +1,37 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>商品信息</title>
-</head>
-<body>
-    <div class="products">
-        <div class="product_info">
-            <img src="{{ product_info.image_url }}" alt="商品图片">
-            <h1>商品名称: {{ product_info.name }}</h1>
-            <p>商品描述: {{ product_info.description }}</p>
-            <button onclick="redirectToInbox()">下单</button>
-        </div>
+{% extends "base.html" %}
+
+{% block title %}商品信息{% endblock %}
+
+{% block styles %}
+    <style>
+        .product_info {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .order-button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <script>
+        function redirectToInbox() {
+            // 使用 JavaScript 来重定向到 Instagram 的 inbox 页面
+            window.location.href = 'https://www.instagram.com/direct/inbox/';
+        }
+    </script>
+    <div class="product_info">
+        <img src="{{ product_info.image_url }}" alt="商品图片">
+        <h1>商品名称: {{ product_info.name }}</h1>
+        <p>商品描述: {{ product_info.description }}</p>
+        <button class="order-button" onclick="redirectToInbox()">下单</button>
     </div>
-</body>
-<script>
-    function redirectToInbox() {
-        // 使用 JavaScript 来重定向到 Instagram 的 inbox 页面
-        window.location.href = 'https://www.instagram.com/direct/inbox/';
-    }
-</script>
-</html>
-
-
-
-
-
-
+{% endblock %}
