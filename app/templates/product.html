@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>商品信息</title>
+</head>
+<body>
+    <div class="products">
+        {% for product in products %}
+        <div class="product">
+            <img src="{{ product.image_url }}" alt="商品图片">
+            <h1>商品名称: {{ product.name }}</h1>
+            <p>商品描述: {{ product.description }}</p>
+            <button onclick="redirectToInbox()">下单</button>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+<script>
+    function redirectToInbox() {
+        // 使用 JavaScript 来重定向到 Instagram 的 inbox 页面
+        window.location.href = 'https://www.instagram.com/direct/inbox/';
+    }
+</script>
+</html>
