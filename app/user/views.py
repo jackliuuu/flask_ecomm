@@ -3,7 +3,8 @@ from app import db
 from app import models
 from flask import request 
 from flask_restful import Resource
-from util.message import to_dict_msg
+from app.utils.message import to_dict_msg
+from app.utils.token import generate_auth_token
 import re
 @user.route("/")
 def index():
@@ -54,8 +55,11 @@ def login():
     if len(name)>1:
         usr = models.User.query.filter_by(name=name).first()
         if usr:
+           
             if usr.check_password(pwd):
-                return to_dict_msg(200)
-    return to_dict_msg(10001)
+                print("_________A__________")
+                token = generate_auth_token(usr.id,1000)
+                return to_dict_msg(200,data={'token':token})
+    return  {'status':10001,'msg':'用户名或密碼錯誤'}
         
         
