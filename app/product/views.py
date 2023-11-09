@@ -2,7 +2,7 @@ from flask.views import MethodView
 from flask import render_template, request, redirect, url_for,abort
 from .models import Product
 from flask import Blueprint
-from .models import db
+from database.database import db
 
 
 class ProductView(MethodView):
@@ -39,9 +39,9 @@ class AddProductView(MethodView):
 
 product_bp = Blueprint('product', __name__)
 
-
 product_view = ProductView.as_view('product_view')
 addproduct_view = AddProductView.as_view('addproduct_view')
+
 product_bp.add_url_rule('/product/<int:product_id>/', view_func=product_view)
 product_bp.add_url_rule('/product/addproduct/',view_func=addproduct_view)
 

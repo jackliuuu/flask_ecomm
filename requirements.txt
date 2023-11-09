@@ -4,3 +4,4 @@ flask_sqlalchemy
 flask_migrate==2.5.3
 flask_script
 cryptography
+flask_restful

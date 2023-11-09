@@ -3,3 +3,4 @@ venv
 mysql
 migrations
 __pycache__
+.vscode

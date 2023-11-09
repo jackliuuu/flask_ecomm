@@ -19,24 +19,4 @@ class Config:
     SECRET_KEY = os.urandom(16)
     DEBUG = True
 
-# import pymysql
 
-# def connectdb():
-#     print("连接到mysql服务器...")
-#     db = pymysql.connect(
-#         host="localhost",
-#         user="root",
-#         passwd="root",
-#         port=3306,
-#         db="shop_env",
-#         charset="utf8",
-#         cursorclass=pymysql.cursors.DictCursor
-#     )
-#     print("连接成功！")
-#     return db
-
-# connectdb()
-
-# if __name__=="__main__":
-#     print(Config.SQLALCHEMY_DATABASE_URI)
-#     connectdb()
