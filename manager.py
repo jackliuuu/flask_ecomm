@@ -9,6 +9,7 @@ from flask_migrate import Migrate
 from flask_script import Manager
 
 app = create_app('develop')
+app.config['SECRET_KEY'] = 'jack_test'
 
 # migrate和同步数据库配置
 manager = Manager(app)

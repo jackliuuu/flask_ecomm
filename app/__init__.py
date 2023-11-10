@@ -31,6 +31,10 @@ def create_app(config_name):
     from app.user import user
     
     app.register_blueprint(user)
-
+    from app.menu import menu
+    
+    app.register_blueprint(menu)
+    from app.role import role
+    app.register_blueprint(role)
     return app
 
