@@ -7,10 +7,13 @@ from app import create_app,db
 from flask_migrate import Migrate
 # 管理:方便数据库的同步
 from flask_script import Manager
+import logging
 
 app = create_app('develop')
 app.config['SECRET_KEY'] = 'jack_test'
-
+logging.basicConfig()
+logging.getLogger('sqlalchemy.engine').setLevel(logging.INFO)
+app.config['SQLALCHEMY_ECHO'] = True
 # migrate和同步数据库配置
 manager = Manager(app)
 Migrate(app,db)

@@ -1,0 +1,222 @@
+insert into t_category (level,name) value (1,'女装 /男装 /内衣');
+insert into t_category (level,name) value (1,'鞋靴 /箱包 /配件');
+insert into t_category (level,name) value (1,'童装玩具 /孕产 /用品');
+insert into t_category (level,name) value (1,'家电 /数码 /手机');
+insert into t_category (level,name) value (1,'美妆 /洗护 /保健品');
+insert into t_category (level,name) value (1,'珠宝 /眼镜 /手表');
+insert into t_category (level,name) value (1,'运动 /户外 /乐器');
+insert into t_category (level,name) value (1,'游戏 /动漫 /影视');
+insert into t_category (level,name) value (1,'美食 /生鲜 /零食');
+insert into t_category (level,name) value (1,'鲜花 /宠物 /农资');
+insert into t_category (level,name) value (1,'面料集采 /装修 /建材');
+insert into t_category (level,name) value (1,'家具 /家饰 /家纺');
+insert into t_category (level,name) value (1,'汽车 /二手车 /用品');
+insert into t_category (level,name) value (1,'办公 /DIY /五金电子');
+insert into t_category (level,name) value (1,'百货 /餐厨 /家庭保健');
+insert into t_category (level,name) value (1,'学习 /卡券 /本地服务');
+
+
+insert into t_category (level,pid,name) value (2,1,'女装');
+insert into t_category (level,pid,name) value (2,1,'男装');
+insert into t_category (level,pid,name) value (2,1,'内衣');
+insert into t_category (level,pid,name) value (2,2,'鞋靴');
+insert into t_category (level,pid,name) value (2,2,'箱包');
+insert into t_category (level,pid,name) value (2,2,'配件');
+insert into t_category (level,pid,name) value (2,3,'童装玩具');
+insert into t_category (level,pid,name) value (2,3,'孕产');
+insert into t_category (level,pid,name) value (2,3,'用品');
+insert into t_category (level,pid,name) value (2,4,'家电');
+insert into t_category (level,pid,name) value (2,4,'数码');
+insert into t_category (level,pid,name) value (2,4,'手机');
+insert into t_category (level,pid,name) value (2,5,'美妆');
+insert into t_category (level,pid,name) value (2,5,'洗护');
+insert into t_category (level,pid,name) value (2,5,'保健品');
+insert into t_category (level,pid,name) value (2,6,'珠宝');
+insert into t_category (level,pid,name) value (2,6,'眼镜');
+insert into t_category (level,pid,name) value (2,6,'手表');
+insert into t_category (level,pid,name) value (2,7,'运动');
+insert into t_category (level,pid,name) value (2,7,'户外');
+insert into t_category (level,pid,name) value (2,7,'乐器');
+insert into t_category (level,pid,name) value (2,8,'游戏');
+insert into t_category (level,pid,name) value (2,8,'动漫');
+insert into t_category (level,pid,name) value (2,8,'影视');
+insert into t_category (level,pid,name) value (2,9,'美食');
+insert into t_category (level,pid,name) value (2,9,'生鲜');
+insert into t_category (level,pid,name) value (2,9,'零食');
+insert into t_category (level,pid,name) value (2,10,'鲜花');
+insert into t_category (level,pid,name) value (2,10,'宠物');
+insert into t_category (level,pid,name) value (2,10,'农资');
+insert into t_category (level,pid,name) value (2,11,'面料集采');
+insert into t_category (level,pid,name) value (2,11,'装修');
+insert into t_category (level,pid,name) value (2,11,'建材');
+insert into t_category (level,pid,name) value (2,12,'家具');
+insert into t_category (level,pid,name) value (2,12,'家饰');
+insert into t_category (level,pid,name) value (2,12,'家纺');
+insert into t_category (level,pid,name) value (2,13,'汽车');
+insert into t_category (level,pid,name) value (2,13,'二手车');
+insert into t_category (level,pid,name) value (2,13,'用品');
+insert into t_category (level,pid,name) value (2,14,'办公');
+insert into t_category (level,pid,name) value (2,14,'DIY');
+insert into t_category (level,pid,name) value (2,14,'五金电子');
+insert into t_category (level,pid,name) value (2,15,'百货');
+insert into t_category (level,pid,name) value (2,15,'餐厨');
+insert into t_category (level,pid,name) value (2,15,'家庭保健');
+insert into t_category (level,pid,name) value (2,16,'学习');
+insert into t_category (level,pid,name) value (2,16,'卡券');
+insert into t_category (level,pid,name) value (2,16,'本地服务');
+
+insert into t_category (level,pid,name) value (3,17,'连衣裙');
+insert into t_category (level,pid,name) value (3,17,'半身裙');
+insert into t_category (level,pid,name) value (3,17,'毛针织衫');
+insert into t_category (level,pid,name) value (3,17,'T恤');
+insert into t_category (level,pid,name) value (3,17,'短外套');
+insert into t_category (level,pid,name) value (3,17,'卫衣');
+insert into t_category (level,pid,name) value (3,17,'汉服');
+insert into t_category (level,pid,name) value (3,17,'JK制服');
+insert into t_category (level,pid,name) value (3,17,'LOLITA');
+insert into t_category (level,pid,name) value (3,17,'衬衫');
+insert into t_category (level,pid,name) value (3,17,'百搭裤装');
+insert into t_category (level,pid,name) value (3,17,'裤裙');
+insert into t_category (level,pid,name) value (3,17,'牛仔裤');
+insert into t_category (level,pid,name) value (3,17,'西装');
+insert into t_category (level,pid,name) value (3,17,'大码女装');
+insert into t_category (level,pid,name) value (3,17,'时尚套装');
+insert into t_category (level,pid,name) value (3,17,'蕾丝衫/雪纺衫');
+insert into t_category (level,pid,name) value (3,17,'风衣');
+insert into t_category (level,pid,name) value (3,17,'休闲裤');
+insert into t_category (level,pid,name) value (3,17,'背心吊带');
+insert into t_category (level,pid,name) value (3,17,'马夹');
+insert into t_category (level,pid,name) value (3,17,'牛仔外套');
+insert into t_category (level,pid,name) value (3,17,'阔腿裤');
+insert into t_category (level,pid,name) value (3,17,'中老年女装');
+insert into t_category (level,pid,name) value (3,17,'婚纱礼服');
+insert into t_category (level,pid,name) value (3,17,'民族服装');
+insert into t_category (level,pid,name) value (3,17,'打底裤');
+insert into t_category (level,pid,name) value (3,17,'西装裤');
+insert into t_category (level,pid,name) value (3,17,'唐装');
+insert into t_category (level,pid,name) value (3,17,'旗袍');
+
+insert into t_category (level,pid,name) value (3,18,'春夏新品');
+insert into t_category (level,pid,name) value (3,18,'T恤');
+insert into t_category (level,pid,name) value (3,18,'衬衫');
+insert into t_category (level,pid,name) value (3,18,'POLO衫');
+insert into t_category (level,pid,name) value (3,18,'休闲裤');
+insert into t_category (level,pid,name) value (3,18,'牛仔裤');
+insert into t_category (level,pid,name) value (3,18,'套装');
+insert into t_category (level,pid,name) value (3,18,'外套');
+insert into t_category (level,pid,name) value (3,18,'夹克');
+insert into t_category (level,pid,name) value (3,18,'卫衣');
+insert into t_category (level,pid,name) value (3,18,'风衣');
+insert into t_category (level,pid,name) value (3,18,'西装');
+insert into t_category (level,pid,name) value (3,18,'牛仔外套');
+insert into t_category (level,pid,name) value (3,18,'棒球服');
+insert into t_category (level,pid,name) value (3,18,'品质好物');
+insert into t_category (level,pid,name) value (3,18,'皮衣');
+insert into t_category (level,pid,name) value (3,18,'针织衫/毛衣');
+insert into t_category (level,pid,name) value (3,18,'运动裤');
+insert into t_category (level,pid,name) value (3,18,'工装裤');
+insert into t_category (level,pid,name) value (3,18,'开衫');
+insert into t_category (level,pid,name) value (3,18,'马甲');
+insert into t_category (level,pid,name) value (3,18,'毛呢大衣');
+insert into t_category (level,pid,name) value (3,18,'羽绒服');
+insert into t_category (level,pid,name) value (3,18,'棉衣');
+insert into t_category (level,pid,name) value (3,18,'中老年');
+insert into t_category (level,pid,name) value (3,18,'情侣装');
+insert into t_category (level,pid,name) value (3,18,'大码');
+insert into t_category (level,pid,name) value (3,18,'民族风');
+insert into t_category (level,pid,name) value (3,18,'专柜大牌');
+insert into t_category (level,pid,name) value (3,18,'明星网红');
+insert into t_category (level,pid,name) value (3,18,'原创设计');
+insert into t_category (level,pid,name) value (3,19,'法式内衣');
+insert into t_category (level,pid,name) value (3,19,'无钢圈内衣');
+insert into t_category (level,pid,name) value (3,19,'内裤女');
+insert into t_category (level,pid,name) value (3,19,'文胸');
+insert into t_category (level,pid,name) value (3,19,'内裤男');
+insert into t_category (level,pid,name) value (3,19,'长袖睡衣');
+insert into t_category (level,pid,name) value (3,19,'睡裙');
+insert into t_category (level,pid,name) value (3,19,'真丝睡衣');
+insert into t_category (level,pid,name) value (3,19,'丝袜');
+insert into t_category (level,pid,name) value (3,19,'船袜');
+insert into t_category (level,pid,name) value (3,19,'情侣睡衣');
+insert into t_category (level,pid,name) value (3,19,'抹胸');
+insert into t_category (level,pid,name) value (3,19,'背心');
+insert into t_category (level,pid,name) value (3,19,'睡袍');
+insert into t_category (level,pid,name) value (3,19,'男士睡衣');
+insert into t_category (level,pid,name) value (3,19,'塑身衣');
+insert into t_category (level,pid,name) value (3,19,'内衣套装');
+insert into t_category (level,pid,name) value (3,19,'打底裤');
+insert into t_category (level,pid,name) value (3,19,'连体睡衣');
+insert into t_category (level,pid,name) value (3,19,'聚拢文胸');
+insert into t_category (level,pid,name) value (3,19,'男士袜子');
+insert into t_category (level,pid,name) value (3,19,'棉袜女');
+insert into t_category (level,pid,name) value (3,19,'卡通睡衣');
+insert into t_category (level,pid,name) value (3,19,'无痕内裤');
+insert into t_category (level,pid,name) value (3,19,'少女文胸');
+
+
+
+
+/**
+商品查詢
+**/
+insert into t_attribute (name,_type,cid,val) value ('品牌','static',65,'soulkiss');
+insert into t_attribute (name,_type,cid,val) value ('适用年龄','static',65,'25-29周岁');
+insert into t_attribute (name,_type,cid,val) value ('材质','static',65,'蚕丝');
+insert into t_attribute (name,_type,cid,val) value ('尺码','static',65,'S M L');
+insert into t_attribute (name,_type,cid,val) value ('面料','static',65,'其他');
+insert into t_attribute (name,_type,cid,val) value ('图案','static',65,'纯色');
+insert into t_attribute (name,_type,cid,val) value ('风格','static',65,'通勤');
+insert into t_attribute (name,_type,cid,val) value ('通勤','static',65,'简约');
+insert into t_attribute (name,_type,cid,val) value ('领型','static',65,'立领');
+insert into t_attribute (name,_type,cid,val) value ('衣门襟','static',65,'单排扣');
+insert into t_attribute (name,_type,cid,val) value ('颜色分类','static',65,'冷艳红梨色-100%桑蚕丝 高雅浅杏-100%桑蚕丝 高雅浅杏-100%桑蚕丝-36517批次 冷艳红梨色-100%桑蚕丝-预售 高雅浅杏-100%桑蚕丝-预售 无视洗涤说明概不负责');
+insert into t_attribute (name,_type,cid,val) value ('组合形式','static',65,'单件');
+insert into t_attribute (name,_type,cid,val) value ('货号','static',65,'S904548');
+insert into t_attribute (name,_type,cid,val) value ('成分含量','static',65,'95%以上');
+insert into t_attribute (name,_type,cid,val) value ('裙型','static',65,'A字裙');
+insert into t_attribute (name,_type,cid,val) value ('年份季节','static',65,'2019年夏季');
+insert into t_attribute (name,_type,cid,val) value ('袖长','static',65,'无袖');
+insert into t_attribute (name,_type,cid,val) value ('裙长','static',65,'中长裙');
+insert into t_attribute (name,_type,cid,val) value ('款式','static',65,'其他/other');
+insert into t_attribute (name,_type,cid,val) value ('廓形','static',65,'A型');
+
+insert into t_attribute (name,_type,cid,val) value ('尺码','dynamic',65,'S,M,L');	
+insert into t_attribute (name,_type,cid,val) value ('颜色分类','dynamic',65,'冷艳红梨色-100%桑蚕丝,高雅浅杏-100%桑蚕丝,高雅浅杏-100%桑蚕丝-36517批次,冷艳红梨色-100%桑蚕丝-预售,高雅浅杏-100%桑蚕丝-预售,无视洗涤说明概不负责');
+
+
+
+insert into t_goods (name,price,number,introduce,big_log,small_log,state,cid_one,cid_two,cid_three,weight,hot_number,is_promote) value ('SOULKISS 高冷气质硬核款 16姆米桑蚕真丝双绉显瘦挂脖露肩连衣裙',879.99,100,'chanpin','','',2,1,17,65,100,30,1);
+insert into t_goods (name,price,number,introduce,big_log,small_log,state,cid_one,cid_two,cid_three,weight,hot_number,is_promote) value ('AmandaX定制重磅奢华真丝提花连肩袖小A连衣裙',879.99,100,'chanpin','','',2,1,17,65,100,30,1);
+insert into t_goods (name,price,number,introduce,big_log,small_log,state,cid_one,cid_two,cid_three,weight,hot_number,is_promote) value ('AmandaX定制30姆米2色重缎可调节V领吊带连衣裙',1380,100,'chanpin','','',2,1,17,65,100,30,1);
+insert into t_goods (name,price,number,introduce,big_log,small_log,state,cid_one,cid_two,cid_three,weight,hot_number,is_promote) value ('吊带连衣裙女2020夏季新款V领雪纺气质印花A字复古小碎花过膝长裙',359.00,100,'chanpin','','',2,1,17,65,100,30,1);
+insert into t_goods (name,price,number,introduce,big_log,small_log,state,cid_one,cid_two,cid_three,weight,hot_number,is_promote) value ('4/17拍 ^_^ 小婷版 温柔小姐姐 白色小花收腰长款连衣裙（20夏）',1399.99,100,'chanpin','','',2,1,17,65,100,30,1);
+insert into t_goods (name,price,number,introduce,big_log,small_log,state,cid_one,cid_two,cid_three,weight,hot_number,is_promote) value ('【思思法代】SANDRO 20春夏蕾丝镂空连衣裙女 SFPRO01010 R20568E',1386,100,'chanpin','','',2,1,17,65,100,30,1);
+
+
+
+
+insert into t_order (id,uid,price,number,pay_status,is_send,fapiao_title,fapiao_company,addrs) value (1,5,100,66,1,1,'','','');
+insert into t_order (id,uid,price,number,pay_status,is_send,fapiao_title,fapiao_company,addrs) value (2,6,400,66,1,1,'','','');
+insert into t_order (id,uid,price,number,pay_status,is_send,fapiao_title,fapiao_company,addrs) value (3,7,200,66,1,1,'','','');
+insert into t_order (id,uid,price,number,pay_status,is_send,fapiao_title,fapiao_company,addrs) value (4,8,300,66,1,1,'','','');
+
+
+insert into  t_express(oid,update_time,content) value (1,'2020-01-19 12:17:21','商品已经下单');
+insert into  t_express(oid,update_time,content) value (1,'2020-01-19 12:27:20','您的订单开始处理');
+insert into  t_express(oid,update_time,content) value (1,'2020-01-21 16:34:07','您的订单待配货');
+insert into  t_express(oid,update_time,content) value (1,'2020-01-21 16:34:07','您的包裹已出库');
+insert into  t_express(oid,update_time,content) value (1,'2020-01-21 19:00:29','包裹正在等待揽收');
+insert into  t_express(oid,update_time,content) value (1,'2020-01-22 15:30:00','顺丰速运 已收取快件');
+insert into  t_express(oid,update_time,content) value (1,'2020-01-23  5:30:00','快件在【金华婺城集收客户营业部】已装车,准备发往 【金华金东中转场】');
+insert into  t_express(oid,update_time,content) value (1,'2020-01-23 20:03:00','快件到达 【金华金东中转场】');
+insert into  t_express(oid,update_time,content) value (1,'2020-01-23 22:36:00','快件在【金华金东中转场】已装车,准备发往 【北京首都机场集散中心2】');
+insert into  t_express(oid,update_time,content) value (1,'2020-01-24 16:01:00','快件到达 【北京首都机场集散中心2】');
+insert into  t_express(oid,update_time,content) value (1,'2020-01-24 16:22:00','快件在【北京首都机场集散中心2】已装车,准备发往 【石家庄高开集散中心】');
+insert into  t_express(oid,update_time,content) value (1,'2020-01-25 03:14:00','快件到达 【石家庄高开集散中心】');
+insert into  t_express(oid,update_time,content) value (1,'2020-01-25 06:14:00','快件在【石家庄高开集散中心】已装车,准备发往 【衡水桃城集散点】');
+insert into  t_express(oid,update_time,content) value (1,'2020-01-25 13:38:00','快件到达 【衡水桃城集散点】');
+insert into  t_express(oid,update_time,content) value (1,'2020-01-26 06:26:00','快件在【衡水桃城集散点】已装车,准备发往 【衡水市桃城区肖家屯新村营业点】');
+insert into  t_express(oid,update_time,content) value (1,'2020-01-25 07:23:00','快件到达 【衡水市桃城区肖家屯新村营业点】');
+insert into  t_express(oid,update_time,content) value (1,'2020-01-25 08:20:00','快件交给潘君策,正在派送途中（联系电话：13788888888,顺丰已开启“安全呼叫”保护您的电话隐私,请放心接听！）');
+insert into  t_express(oid,update_time,content) value (1,'2020-01-25 10:01:00','快件派送不成功(因电话无人接听/关机/无信号，暂无法联系到收方客户),正在处理中,待再次派送');
+insert into  t_express(oid,update_time,content) value (1,'2020-01-25 11:37:00','已签收,感谢使用顺丰,期待再次为您服务');
