@@ -13,23 +13,26 @@ class DevelopmentConfig(Config):
 class ProductionConfig(Config):
     pass
 
+
 config_map={
     'develop':DevelopmentConfig,
     'product':ProductionConfig
 }
+
+
 def create_app(config_name):
     app = Flask(__name__)
-    # 获取到字典中的哪种类，获取到对应的类名，再给到from_object获取到对应的参数
+    # 
     obj = config_map.get(config_name)
-    # 加载数据库到Flask中
+    # 把DB資訊丟進去flask
     app.config.from_object(obj)
     app.config['SQLALCHEMY_DATABASE_URI']=Config.SQLALCHEMY_DATABASE_URI
     app.config['JSON_AS_ASCII'] = False
-    # 默认连接数据库
+    #初始化DB
     db.init_app(app)
     
-    # 注册用户的蓝图
-    # 不可以把这一行放到开头，否则会执行回init，再引用回来会需要创建db，产生报错
+    #註冊blueprint
+    #不能讓from 被init
     from app.user import user
     app.register_blueprint(user)
     
@@ -41,11 +44,15 @@ def create_app(config_name):
     
     from app.category import category
     app.register_blueprint(category) 
+    
     from app.category import attribute
     app.register_blueprint(attribute)
+    
     from app.goods import goods
     app.register_blueprint(goods)
+    
     from app.order import order
     app.register_blueprint(order)
+    
     return app
 
